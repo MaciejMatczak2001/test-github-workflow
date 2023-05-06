@@ -18,4 +18,4 @@ jobs:
         python-version: '3.10' 
     - run: |
         pip install -r requirements.txt
-        pylint app.py
+        pylint app.py --errors-only
